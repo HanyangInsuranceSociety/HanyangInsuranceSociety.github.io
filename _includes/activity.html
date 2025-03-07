@@ -1,29 +1,30 @@
 <section class="hero is-fullheight has-text-centered has-background-white-ter" id="activity">
     <div class="hero-body">
         <div class="container">
-            <div class="container has-text-centered">
-                <h1 class="title has-text-black has-text-weight-bold">About Us</h1>
-                <br><br>
-                <p style="line-height: 200%">
-                    <img src="/assets/images/dblogo.png" height="43px" width="180px" />의 후원을 받고있는 한양보험학회는<br>
-                    보험 산업의 전문자격증인 <b>보험계리사 자격증과 손해사정사</b> 자격증 등을 준비하고<br>
-                    보험 전반에 관한 연구를 진행하며<br>
-                    보험 분야에 대해 보다 깊이 있는 학습을 위해 설립된 학회입니다.<br>
-                    21세기 금융업의 중심이 되는 보험산업을 이끌어 나갈 인재를 양성하는 곳으로<br>
-                    보험전문인의 자격을 갖추기 위해 <b>보험 관련 사회 현상을 분석, 토론</b>하고<br>
-                    교내 학우들과 교류 및 현재 업계에 계신 선배님들과 만남을 통해<br>
-                    <b>한양대학교 네트워크</b>를 형성하는 것이 주된 목표입니다.<br>
-                </p>
-            </div>
-            
-            <br><br>
-
-            <div class="has-text-centered">
-                <h2 class="subtitle has-text-black has-text-weight-bold">Our Story</h2>
-                <br>
-                <figure class="image">
-                    <img src="/assets/images/history.png" object-fit="cover" width="80%" />
-                </figure>
+            <div class="columns">
+                <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
+                    <figure class="image">
+                        <img class="is-rounded" src="{{site.author-image}}" alt="{{site.author-name}}">
+                    </figure>
+                </div>
+                <div class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
+                    <p>{{site.author-about}}</p>
+                    <br>
+                    <div class="container columns is-centered">
+                        <div>
+                            <a href="{{site.url}}{{site.baseurl}}/#contact"
+                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Contact
+                                Me</a>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="{{site.url}}{{site.baseurl}}/blog"
+                                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined">Blog</a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 </section>
