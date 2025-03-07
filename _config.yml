@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Hanyang Insurance Society
 # Description of the Site
-description: One for All, All for One <br> Established by. <img src="/assets/images/dblogo.png" />
+description: One for All, All for One <br> Established by. <img src="/assets/images/dblogo.png" width=180px height=43px/>
 # URL of Image of the Site
 site-image: /assets/images/meta.jpg
 # Keywords of the Site
